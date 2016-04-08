@@ -1,1 +1,1 @@
-# local.conf of openstack-tacker
+# myvnf.yaml for tacker
