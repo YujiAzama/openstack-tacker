@@ -1,1 +1,1 @@
-# myvnf.yaml for tacker
+# local.conf and myvnf.yaml for tacker
