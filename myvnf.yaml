@@ -25,12 +25,15 @@ vdus:
       availability_zone: nova
 
     auto-scaling: noop
-
-    monitoring_policy: ping
-    failure_policy: respawn
-
-    monitoring_parameter:
-      a:
+    monitoring_policy:
+      ping:
+        monitoring_params:
+          monitoring_delay: 300
+          count: 3
+          interval: .5
+          timeout: 2
+        actions:
+          failure: respawn
 
     config:
       param0: key0
