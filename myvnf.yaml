@@ -1,5 +1,5 @@
 template_name: MyVNF
-description: A dummy router based on Ubuntu.
+description: A simple firewall based on Ubuntu.
 
 service_properties:
   Id: sample-vnfd
